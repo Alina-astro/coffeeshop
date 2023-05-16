@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'gilroy-medium';
+    src: url('fonts/gilroy-medium.ttf');
+    font-style: normal;
+}
+
+.topmenu {
+    width: 1904px;
+    height: 160px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo {
+    width: 260px;
+    height: 116px;
+    margin-left: 120px;
+    margin-right: 280px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+
+}
+
+.navigation {
+    font-family: 'gilroy-medium', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    height: 29px;
+    text-decoration: none;
+    color: black;
+    margin-right: 100px;
+    margin-top: 60px;
+
+}
+
+.navigation:hover {
+    text-decoration: underline;
+}
+
+
+.navigation:active {
+    color: #F9B300;
+}
+
+
+.personmenu {
+    width: 33px;
+    height: 31px;
+    margin-right: 53px;
+}
+
+#search {
+    margin-left: 240px;
+}
+
+.personmenu:hover {
+    border: 3px solid #F9B300;
+    border-radius: 5px;
+}
+
+
+.coffeetittle {
+    width: 1904px;
+    height: 650px;
+}
+
+#cafe2 {
+    float: right;
+    width: 744px;
+    height: 496px;
+    margin-right: 240px;
+    margin-top: -160px;
+}
+
+main h1 {
+    width: 960px;
+    height: 100px;
+    font-family: 'gilroy-medium', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 100px;
+    color: black;
+    margin-left: 122px;
+    margin-top: 120px;
+}
+
+.aboutcoffee {
+    width: 658px;
+    height: 128px;
+    margin-left: 122px;
+    margin-top: 60px;
+    font-family: 'gilroy-medium', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 100%;
+}
+
+#aboutcoffee1 {
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+#aboutcoffee3 {
+    font-weight: 900;
+}
+
+.button1 {
+    width: 400px;
+    height: 80px;
+    margin-top: 112px;
+    margin-left: 122px;
+    background-color: #F9B300;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+}
+
+.button1:active {
+    background: #c58d00;
+}
+
+.button1:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px #b38000;
+
+}
+
+.button2 {
+    color: #ffffff;
+    font-family: 'gilroy-medium', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    line-height: 36px;
+}
