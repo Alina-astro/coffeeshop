@@ -2,34 +2,39 @@
     font-family: 'gilroy-medium';
     src: url('fonts/gilroy-medium.ttf');
     font-style: normal;
+    font-family: 'gilroy-bold';
+    src: url('fonts/gilroy-black.ttf');
+    font-style: normal;
+
 }
 
 .topmenu {
-    width: 1280px;
-    height: 160px;
+    width: 100vw;
+    height: 140px;
     display: inline-block;
     vertical-align: middle;
+    border: 1px solid #e775f7;
 }
 
 .logo {
-    width: 260px;
-    height: 116px;
-    margin-left: 120px;
-    margin-right: 280px;
-    margin-top: 22px;
-    margin-bottom: 22px;
+    width: 200px;
+    height: 80px;
+    margin-left: 50px;
+    margin-right: 270px;
+    margin-top: 20px;
+    /*margin-bottom: 22px;*/
 
 }
 
 .navigation {
     font-family: 'gilroy-medium', Arial, sans-serif;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 18px;
     height: 29px;
     text-decoration: none;
     color: black;
     margin-right: 100px;
-    margin-top: 60px;
+    margin-top: 40px;
 
 }
 
@@ -44,13 +49,13 @@
 
 
 .personmenu {
-    width: 33px;
-    height: 31px;
-    margin-right: 53px;
+    width: 23px;
+    height: 21px;
+    margin-right: 33px;
 }
 
 #search {
-    margin-left: 240px;
+    margin-left: 130px;
 }
 
 .personmenu:hover {
@@ -60,40 +65,41 @@
 
 
 .coffeetittle {
-    width: 1904px;
+    width: 100vw;
     height: 650px;
+    border: 1px solid #e775f7;
 }
 
 #cafe2 {
     float: right;
-    width: 744px;
-    height: 496px;
-    margin-right: 240px;
-    margin-top: -160px;
+    width: 550px;
+    height: 370px;
+    margin-right: 200px;
+    margin-top: -120px;
 }
 
 main h1 {
-    width: 960px;
-    height: 100px;
-    font-family: 'gilroy-medium', Arial, sans-serif;
+    /*width: 960px;
+    height: 100px;*/
+    font-family: 'gilroy-bold', Arial, sans-serif;
     font-weight: 900;
-    font-size: 80px;
-    line-height: 100px;
+    font-size: 60px;
+    /*line-height: 100px;*/
     color: black;
-    margin-left: 122px;
-    margin-top: 120px;
+    margin-left: 80px;
+    margin-top: 100px;
 }
 
 .aboutcoffee {
-    width: 658px;
-    height: 128px;
-    margin-left: 122px;
+    /*width: 658px;
+    height: 128px;*/
+    margin-left: 80px;
     margin-top: 60px;
     font-family: 'gilroy-medium', Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 25px;
-    line-height: 100%;
+    font-size: 20px;
+    /*line-height: 100%;*/
 }
 
 #aboutcoffee1 {
