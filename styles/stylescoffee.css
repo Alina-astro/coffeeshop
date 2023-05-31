@@ -19,9 +19,10 @@
 
 img.logo {
     width: 15%;
-    position: absolute;
+    position: relative;
     margin-left: 50px;
     margin-top: 20px;
+    margin-right: 250px;
     border: solid 1px rgb(233, 103, 218);
 
 }
@@ -144,7 +145,7 @@ main h1 {
 .h1catalog {
     margin-top: 150px;
     font-size: 50px;
-    color: #c34eac;
+    color: #ffffff;
 }
 
 #cafe2catalog {
