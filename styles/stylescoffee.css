@@ -143,6 +143,7 @@ main h1 {
 
 section.catalogcoffee {
     border: solid 1px rgb(233, 103, 218);
+    display: inline;
 }
 
 h2.catalogcoffee {
@@ -155,7 +156,10 @@ h2.catalogcoffee {
 }
 
 .catalogcard {
-    border: solid 1px rgb(233, 103, 218);
+    border: solid 1px #e967da;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgba(146, 146, 146, 0.2);
     width: 20%;
     height: 440px;
 }
