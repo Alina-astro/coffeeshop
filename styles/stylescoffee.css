@@ -70,10 +70,22 @@ img.logo {
     height: 650px;
 }
 
-#cafe2 {
+#cafe2,
+#cafe1 {
     float: right;
+
+    position: absolute;
+}
+
+#cafe1 {
+    width: 55%;
+    margin-left: 38vw;
+    margin-top: -150px;
+}
+
+#cafe2 {
     width: 45%;
-    margin-right: 170px;
+    margin-left: 45vw;
     margin-top: -120px;
 }
 
