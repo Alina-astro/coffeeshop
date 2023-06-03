@@ -11,7 +11,6 @@
 .topmenu {
     width: 100vw;
     height: 140px;
-    display: inline-block;
     vertical-align: middle;
     border: solid 1px blueviolet;
 
@@ -155,7 +154,7 @@ main h1 {
 
 section.catalogcoffee {
     border: solid 1px rgb(233, 103, 218);
-    display: inline;
+
 }
 
 h2.catalogcoffee {
@@ -167,6 +166,11 @@ h2.catalogcoffee {
     margin-top: 100px;
 }
 
+div.catalogcard {
+    display: inline-block;
+    /*не работает*/
+}
+
 .catalogcard {
     border: solid 1px #e967da;
     background-color: #ffffff;
@@ -176,11 +180,19 @@ h2.catalogcoffee {
     height: 440px;
 }
 
-.catalogphoto {
-    width: 80%;
-    align-items: center;
-    margin-top: 10vh;
+.catalogcard p {
+    font-family: 'gilroy-bold', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: black;
+    text-align: center;
 }
+
+.catalogcard img {
+    align-items: center;
+    /*не работает*/
+}
+
 
 /*------------------------------Page Catalog------------------*/
 .h1catalog {
