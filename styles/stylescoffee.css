@@ -8,11 +8,12 @@
 
 }
 
+/*------------------------------Page Main------------------*/
 .topmenu {
     width: 100vw;
     height: 140px;
     vertical-align: middle;
-    border: solid 1px blueviolet;
+    border: solid 1px rgb(226, 43, 189);
 
 }
 
@@ -88,6 +89,7 @@ img.logo {
     margin-top: -120px;
 }
 
+/*------------------------------Page Main About------------------*/
 main h1 {
     /*width: 960px;
     height: 100px;*/
@@ -152,8 +154,9 @@ main h1 {
     line-height: 36px;
 }
 
+/*------------------------------Page Main Catalog Coffee------------------*/
 section.catalogcoffee {
-    border: solid 1px rgb(233, 103, 218);
+    border: solid 2px rgb(190, 103, 233);
 
 }
 
@@ -163,7 +166,7 @@ h2.catalogcoffee {
     font-size: 35px;
     color: black;
     margin-left: 80px;
-    margin-top: 100px;
+
 }
 
 div.catalogcard {
@@ -191,6 +194,11 @@ div.catalogcard {
 .catalogcard img {
     align-items: center;
     /*не работает*/
+}
+
+/*------------------------------Page Main Discount------------------*/
+.discountcard {
+    border: solid 1px #e967da;
 }
 
 
