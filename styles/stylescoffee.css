@@ -297,6 +297,11 @@ span.pricenew {
     margin-right: 3px;
 }
 
+.ellipse25,
+.ellipse32 {
+    width: 10px;
+    margin-right: 3px;
+}
 
 /*------------------------------Page Catalog------------------*/
 .h1catalog {
