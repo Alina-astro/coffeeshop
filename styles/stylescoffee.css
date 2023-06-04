@@ -292,6 +292,11 @@ span.pricenew {
 
 }
 
+.stars1,
+.stars5 {
+    margin-right: 3px;
+}
+
 
 /*------------------------------Page Catalog------------------*/
 .h1catalog {
