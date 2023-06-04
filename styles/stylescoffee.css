@@ -271,8 +271,27 @@ span.pricenew {
     color: #ffffff;
 }
 
+.buttondiscount {
+    width: 140px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #F9B300;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    margin-left: 30px;
+}
 
-.buttondiscount
+.buttondiscount:active {
+    background: #c58d00;
+}
+
+.buttondiscount:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px #b38000;
+
+}
+
 
 /*------------------------------Page Catalog------------------*/
 .h1catalog {
