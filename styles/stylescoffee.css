@@ -308,6 +308,44 @@ span.pricenew {
     margin-right: 7px;
 }
 
+/*------------------------------Page Main About Us------------------*/
+
+section.aboutus {
+
+    border: solid 1px rgb(233, 103, 218);
+}
+
+#cafe3,
+#cafe4 {
+    float: left;
+
+}
+
+#cafe3 {
+    width: 46%;
+    height: 70%;
+    margin-left: 32vw;
+    margin-top: -170px;
+}
+
+#cafe4 {
+    width: 40%;
+    margin-left: 37vw;
+    margin-top: -120px;
+}
+
+
+h2.aboutus {
+    font-family: 'gilroy-bold', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 35px;
+    color: black;
+    text-align: right;
+
+}
+
+
+
 /*------------------------------Page Catalog------------------*/
 .h1catalog {
     margin-top: 150px;
@@ -328,3 +366,5 @@ span.pricenew {
     height: 468px;
     border: solid 1px blueviolet;
 }
+
+/*------------------------------Page Catalog------------------*/
