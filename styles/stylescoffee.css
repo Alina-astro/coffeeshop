@@ -331,10 +331,10 @@ section.aboutus {
 }
 
 #cafe4 {
-    width: 30%;
-    margin-left: 34px;
+    width: 36%;
     position: relative;
-    /*margin-top: 300px;*/
+    margin-left: 20px;
+    margin-top: 150px;
 
 }
 
@@ -345,10 +345,9 @@ h2.aboutus {
     font-size: 35px;
     color: black;
     text-align: left;
-    margin-top: 400px;
+    margin-top: 0px;
 
 }
-
 
 p.why {
     text-align: left;
