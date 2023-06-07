@@ -372,25 +372,36 @@ p.why2 {
     margin-left: 700px;
 }
 
-/*------------------------------Page Catalog------------------*/
-.h1catalog {
-    margin-top: 150px;
-    font-size: 50px;
+/*------------------------------Page Main How We------------------*/
+section.howwe {
+
+    border: solid 1px rgb(233, 103, 218);
+    background-image: url(/coffeeshop/assets/images/howwe.png);
     color: #ffffff;
-}
+    padding-top: 50px;
+    padding-bottom: 50px;
 
-#cafe2catalog {
-    float: right;
-    width: 38%;
-    margin-right: 80px;
-    margin-top: 0px;
-    border: solid 1px blueviolet;
-}
 
-.coffeetittle2 {
-    background-color: #F9B300;
-    height: 468px;
-    border: solid 1px blueviolet;
-}
 
-/*------------------------------Page Catalog------------------*/
+    /*------------------------------Page Catalog------------------*/
+    .h1catalog {
+        margin-top: 150px;
+        font-size: 50px;
+        color: #ffffff;
+    }
+
+    #cafe2catalog {
+        float: right;
+        width: 38%;
+        margin-right: 80px;
+        margin-top: 0px;
+        border: solid 1px blueviolet;
+    }
+
+    .coffeetittle2 {
+        background-color: #F9B300;
+        height: 468px;
+        border: solid 1px blueviolet;
+    }
+
+    /*------------------------------Page Catalog------------------*/
