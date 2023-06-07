@@ -380,6 +380,7 @@ section.howwe {
     color: #ffffff;
     padding-top: 50px;
     padding-bottom: 50px;
+    padding-left: 30px;
 }
 
 h2.howwe {
@@ -392,6 +393,36 @@ p.howwetext {
     font-family: 'gilroy-medium', Arial, sans-serif;
     font-size: 18px;
     line-height: 130%;
+}
+
+.buttonhow {
+    width: 300px;
+    height: 50px;
+    margin-top: 54px;
+    background-color: #F9B300;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+}
+
+.buttonhow:active {
+    background: #c58d00;
+}
+
+.buttonhow:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px #b38000;
+
+}
+
+.buttontexthow {
+    color: #ffffff;
+    font-family: 'gilroy-medium', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    line-height: 36px;
 }
 
 
