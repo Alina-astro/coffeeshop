@@ -380,28 +380,40 @@ section.howwe {
     color: #ffffff;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+h2.howwe {
+    font-family: 'gilroy-bold', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+p.howwetext {
+    font-family: 'gilroy-medium', Arial, sans-serif;
+    font-size: 18px;
+    line-height: 130%;
+}
 
 
+/*------------------------------Page Catalog------------------*/
+.h1catalog {
+    margin-top: 150px;
+    font-size: 50px;
+    color: #ffffff;
+}
 
-    /*------------------------------Page Catalog------------------*/
-    .h1catalog {
-        margin-top: 150px;
-        font-size: 50px;
-        color: #ffffff;
-    }
+#cafe2catalog {
+    float: right;
+    width: 38%;
+    margin-right: 80px;
+    margin-top: 0px;
+    border: solid 1px blueviolet;
+}
 
-    #cafe2catalog {
-        float: right;
-        width: 38%;
-        margin-right: 80px;
-        margin-top: 0px;
-        border: solid 1px blueviolet;
-    }
+.coffeetittle2 {
+    background-color: #F9B300;
+    height: 468px;
+    border: solid 1px blueviolet;
+}
 
-    .coffeetittle2 {
-        background-color: #F9B300;
-        height: 468px;
-        border: solid 1px blueviolet;
-    }
-
-    /*------------------------------Page Catalog------------------*/
+/*------------------------------Page Catalog------------------*/
