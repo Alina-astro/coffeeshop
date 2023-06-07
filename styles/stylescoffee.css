@@ -318,13 +318,14 @@ section.aboutus {
 #cafe3,
 #cafe4 {
     float: left;
-    position: absolute;
+
 
 }
 
 #cafe3 {
     width: 46%;
     margin-left: 18px;
+    position: absolute;
     /*margin-top: 180px;*/
 
 }
@@ -332,6 +333,7 @@ section.aboutus {
 #cafe4 {
     width: 30%;
     margin-left: 34px;
+    position: relative;
     /*margin-top: 300px;*/
 
 }
@@ -342,8 +344,8 @@ h2.aboutus {
     font-weight: 900;
     font-size: 35px;
     color: black;
-    text-align: right;
-    margin-top: 50px;
+    text-align: center;
+    margin-top: 150px;
 
 }
 
