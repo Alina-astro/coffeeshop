@@ -313,6 +313,9 @@ span.pricenew {
 section.aboutus {
 
     border: solid 1px rgb(233, 103, 218);
+    background-color: #FFF7E1;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 #cafe3,
@@ -326,7 +329,7 @@ section.aboutus {
     width: 46%;
     margin-left: 18px;
     position: absolute;
-    /*margin-top: 180px;*/
+    margin-top: 50px;
 
 }
 
@@ -334,7 +337,7 @@ section.aboutus {
     width: 36%;
     position: relative;
     margin-left: 20px;
-    margin-top: 150px;
+    margin-top: 200px;
 
 }
 
@@ -363,6 +366,11 @@ p.why2 {
     font-size: 18px;
 }
 
+h2.aboutus,
+p.why,
+p.why2 {
+    margin-left: 700px;
+}
 
 /*------------------------------Page Catalog------------------*/
 .h1catalog {
