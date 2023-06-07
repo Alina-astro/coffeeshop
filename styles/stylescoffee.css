@@ -345,9 +345,17 @@ h2.aboutus {
     font-size: 35px;
     color: black;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 250px;
 
 }
+
+p.why,
+p.why2 {
+    font-family: 'gilroy-medium', Arial, sans-serif;
+    text-align: left;
+    margin-top: 150px;
+}
+
 
 
 /*------------------------------Page Catalog------------------*/
