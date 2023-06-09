@@ -442,6 +442,59 @@ p.howwetext {
     line-height: 36px;
 }
 
+/*------------------------------Page Main News------------------*/
+
+section.news {
+
+    border: solid 1px rgb(233, 103, 218);
+    background-color: #FFF7E1;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+h2.news {
+    font-family: 'gilroy-bold', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 35px;
+    color: black;
+    text-align: left;
+    margin-top: 0px;
+
+}
+
+#imgleo {
+    float: left;
+    width: 20%;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+p.why {
+    text-align: left;
+    font-family: 'gilroy-bold', Arial, sans-serif;
+    margin-top: 50px;
+    font-size: 21px;
+    font-weight: 900;
+}
+
+p.why2 {
+    font-family: 'gilroy-medium', Arial, sans-serif;
+    text-align: left;
+    font-size: 18px;
+}
+
+h2.aboutus,
+p.why,
+p.why2 {
+    margin-left: 700px;
+}
+
+
+
 
 /*------------------------------Page Catalog------------------*/
 .h1catalog {
