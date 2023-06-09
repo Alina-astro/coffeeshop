@@ -14,14 +14,16 @@
 /*------------------------------Page Main------------------*/
 body {
     border: solid 1px rgb(46, 226, 43);
-    padding: 80px;
-    padding-top: 20px;
+
 }
 
 .topmenu {
     height: 100px;
     vertical-align: middle;
     border: solid 1px rgb(226, 43, 189);
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
 
 }
 
@@ -71,6 +73,8 @@ img.logo {
 section.coffeetittle {
 
     border: solid 1px rgb(233, 103, 218);
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 #cafe2,
@@ -153,6 +157,8 @@ h1.coffeetittle {
 /*------------------------------Page Main Catalog Coffee------------------*/
 section.catalogcoffee {
     border: solid 2px rgb(190, 103, 233);
+    padding-left: 80px;
+    padding-right: 80px;
 
 }
 
@@ -193,8 +199,16 @@ div.catalogcard {
 }
 
 /*------------------------------Page Main Discount------------------*/
+section.discount {
+    border: solid 1px #e967da;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 40px;
+}
+
 .discountcard {
     border: solid 1px #e967da;
+    margin-top: 40px;
 }
 
 h2.discount {
@@ -316,6 +330,8 @@ section.aboutus {
     background-color: #FFF7E1;
     padding-top: 30px;
     padding-bottom: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 #cafe3,
@@ -380,7 +396,8 @@ section.howwe {
     color: #ffffff;
     padding-top: 50px;
     padding-bottom: 50px;
-    padding-left: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 h2.howwe {
