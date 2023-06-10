@@ -464,35 +464,45 @@ h2.news {
 
 }
 
+div.coffeecountry1,
+div.coffeecountry2 {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(146, 146, 146, 0.2);
+    border-radius: 20px;
+}
+
 #imgleo {
     float: left;
     width: 20%;
     position: relative;
-    margin-left: 20px;
-    margin-top: 20px;
+
 }
 
 
-p.why {
-    text-align: left;
+p.tanzcoffee,
+p.afrcoffee {
     font-family: 'gilroy-bold', Arial, sans-serif;
-    margin-top: 50px;
-    font-size: 21px;
-    font-weight: 900;
-}
-
-p.why2 {
-    font-family: 'gilroy-medium', Arial, sans-serif;
-    text-align: left;
     font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 300px;
 }
 
-h2.aboutus,
-p.why,
-p.why2 {
-    margin-left: 700px;
+p.tanz1,
+p.tanz2 {
+    font-family: 'gilroy-medium', Arial, sans-serif;
+    font-size: 14px;
+    text-align: left;
+    margin-left: 300px;
 }
 
+a.more {
+    font-family: 'gilroy-medium', Arial, sans-serif;
+    font-size: 14px;
+    color: #F9B300;
+    text-decoration: none;
+    margin-left: 300px;
+}
 
 
 
