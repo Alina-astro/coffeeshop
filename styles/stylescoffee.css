@@ -471,6 +471,16 @@ div.coffeecountry2 {
     border-radius: 20px;
     height: 300px;
     display: inline-block;
+    margin: 10px;
+}
+
+div.coffeecountry1 {
+    width: 50vw;
+}
+
+div.coffeecountry2 {
+    width: 30vw;
+
 }
 
 #imgleo {
@@ -485,30 +495,43 @@ p.afrcoffee {
     font-family: 'gilroy-bold', Arial, sans-serif;
     font-size: 18px;
     font-weight: 700;
-    text-align: left;
+    padding-top: 30px;
+}
+
+p.tanzcoffee,
+p.tanz1,
+p.tanz2,
+a.more {
     margin-left: 300px;
-    padding-top: 40px;
+    text-align: left;
+
+}
+
+p.afrcoffee,
+p.afr,
+a.more2 {
+    margin-left: 50px;
 }
 
 p.tanz1,
-p.tanz2 {
+p.tanz2,
+p.afr {
     font-family: 'gilroy-medium', Arial, sans-serif;
     font-size: 14px;
-    text-align: left;
-    line-height: 130%;
-    margin-left: 300px;
+    line-height: 140%;
 }
 
-a.more {
+a.more,
+a.more2 {
     font-family: 'gilroy-medium', Arial, sans-serif;
     font-size: 14px;
     color: #F9B300;
     text-decoration: none;
-    margin-left: 300px;
 }
 
-#more {
-    width: 0.7%;
+#more,
+#more2 {
+    height: 8px;
     margin-left: 8px;
 }
 
