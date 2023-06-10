@@ -469,13 +469,13 @@ div.coffeecountry2 {
     background: #FFFFFF;
     box-shadow: 0px 0px 30px rgba(146, 146, 146, 0.2);
     border-radius: 20px;
+    height: 300px;
 }
 
 #imgleo {
     float: left;
-    width: 20%;
-    position: relative;
-
+    height: 300px;
+    position: absolute;
 }
 
 
@@ -486,6 +486,7 @@ p.afrcoffee {
     font-weight: 700;
     text-align: left;
     margin-left: 300px;
+    padding-top: 40px;
 }
 
 p.tanz1,
@@ -493,6 +494,7 @@ p.tanz2 {
     font-family: 'gilroy-medium', Arial, sans-serif;
     font-size: 14px;
     text-align: left;
+    line-height: 130%;
     margin-left: 300px;
 }
 
@@ -504,6 +506,10 @@ a.more {
     margin-left: 300px;
 }
 
+#more {
+    width: 0.7%;
+    margin-left: 8px;
+}
 
 
 /*------------------------------Page Catalog------------------*/
