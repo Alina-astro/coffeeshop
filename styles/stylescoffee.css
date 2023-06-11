@@ -538,7 +538,7 @@ a.more2 {
 /*------------------------------Page Main Subskribe------------------*/
 
 section.sub {
-    border: solid 1px rgb(233, 103, 218);
+    border: solid 3px rgb(233, 103, 218);
 
 }
 
@@ -551,14 +551,14 @@ section.sub {
 #cafe5 {
     width: 38%;
     height: 70%;
-    margin-left: 50vw;
-    margin-top: -170px;
+    margin-left: 62vw;
+    margin-top: -90px;
 }
 
 #cafe6 {
-    width: 32%;
-    margin-left: 57vw;
-    margin-top: -120px;
+    width: 34%;
+    margin-left: 64vw;
+    margin-top: -10px;
 }
 
 h2.sub {
@@ -567,7 +567,7 @@ h2.sub {
     font-size: 35px;
     color: black;
     text-align: left;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 p.sub {
