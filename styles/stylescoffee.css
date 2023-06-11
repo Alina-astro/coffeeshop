@@ -535,6 +535,29 @@ a.more2 {
     margin-left: 8px;
 }
 
+/*------------------------------Page Main Subskribe------------------*/
+
+section.sub {
+    border: solid 1px rgb(233, 103, 218);
+
+}
+
+h2.sub {
+    font-family: 'gilroy-bold', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 35px;
+    color: black;
+    text-align: left;
+    margin-top: 100px;
+}
+
+p.sub {
+    font-family: 'gilroy-medium', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 30px;
+}
+
 
 /*------------------------------Page Catalog------------------*/
 .h1catalog {
