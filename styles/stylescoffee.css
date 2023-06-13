@@ -105,6 +105,7 @@ h1.coffeetittle {
     color: black;
     margin-top: 80px;
     letter-spacing: 0.5px;
+
 }
 
 .aboutcoffee {
@@ -664,6 +665,14 @@ a.mainfooter:hover {
 
 
 /*------------------------------Page Catalog------------------*/
+.coffeetittle2 {
+    background-color: #F9B300;
+    height: 468px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border: solid 1px blueviolet;
+}
+
 
 #cafe2catalog,
 #cafe1catalog {
@@ -673,27 +682,26 @@ a.mainfooter:hover {
 
 #cafe1catalog {
     width: 40%;
-    margin-left: 32vw;
-    margin-top: -170px;
+    margin-left: 46vw;
+
 }
 
 #cafe2catalog {
     width: 35%;
-    margin-left: 37vw;
-    margin-top: 0px;
+    margin-left: 50vw;
+    margin-top: -15px;
 }
 
 .h1catalog {
-    margin-top: 150px;
-    font-size: 50px;
+    font-family: 'gilroy-bold', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 47px;
     color: #ffffff;
+    margin-top: 80px;
+
+    line-height: 87px;
 }
 
 
-.coffeetittle2 {
-    background-color: #F9B300;
-    height: 468px;
-    border: solid 1px blueviolet;
-}
 
 /*------------------------------Page Catalog------------------*/
