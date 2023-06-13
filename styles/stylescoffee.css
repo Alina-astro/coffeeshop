@@ -24,6 +24,7 @@ body {
     padding-left: 80px;
     padding-right: 80px;
     padding-top: 20px;
+    padding-bottom: 40px;
 
 }
 
@@ -60,7 +61,7 @@ img.logo {
 }
 
 #search {
-    margin-left: 190px;
+    margin-left: 244px;
 }
 
 .personmenu:hover {
@@ -663,19 +664,31 @@ a.mainfooter:hover {
 
 
 /*------------------------------Page Catalog------------------*/
+
+#cafe2catalog,
+#cafe1catalog {
+    float: right;
+    position: absolute;
+}
+
+#cafe1catalog {
+    width: 40%;
+    margin-left: 32vw;
+    margin-top: -170px;
+}
+
+#cafe2catalog {
+    width: 35%;
+    margin-left: 37vw;
+    margin-top: 0px;
+}
+
 .h1catalog {
     margin-top: 150px;
     font-size: 50px;
     color: #ffffff;
 }
 
-#cafe2catalog {
-    float: right;
-    width: 38%;
-    margin-right: 80px;
-    margin-top: 0px;
-    border: solid 1px blueviolet;
-}
 
 .coffeetittle2 {
     background-color: #F9B300;
