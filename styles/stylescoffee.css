@@ -667,10 +667,10 @@ a.mainfooter:hover {
 /*------------------------------Page Catalog------------------*/
 .coffeetittle2 {
     background-color: #F9B300;
-    height: 468px;
+    height: 380px;
     padding-left: 80px;
     padding-right: 80px;
-    border: solid 1px blueviolet;
+    border: solid 1px #F9B300;
 }
 
 
@@ -698,7 +698,6 @@ a.mainfooter:hover {
     font-size: 47px;
     color: #ffffff;
     margin-top: 80px;
-
     line-height: 87px;
 }
 
