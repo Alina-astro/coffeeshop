@@ -704,3 +704,108 @@ a.mainfooter:hover {
 
 
 /*------------------------------Page Catalog------------------*/
+
+/*------------------------------Page Catalog Price------------------*/
+section.catalogprice {
+    border: solid 1px #e967da;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 40px;
+}
+
+.catalogcard {
+    border: solid 1px #e967da;
+    margin-top: 40px;
+}
+
+
+p.popular1,
+p.popular2 {
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+    color: #F9B300;
+
+}
+
+option.gramm {
+    /*-------------------------------------надо сделать бокс*/
+    font-family: 'gilroy-medium', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+p.rating {
+    font-size: 19px;
+    font-weight: 900;
+}
+
+span.comment {
+    font-size: 12px;
+    font-weight: 100;
+}
+
+p.vkus,
+p.namecoffeeabout .buttontextdiscount {
+    font-size: 14px;
+}
+
+p.namecoffee {
+    font-family: 'gilroy-bold', Arial, sans-serif;
+}
+
+span.priceold {
+    font-family: 'gilroy-medium', Arial, sans-serif;
+    font-size: 22px;
+    color: #C6C6C6;
+    text-decoration-line: line-through;
+}
+
+span.pricenew {
+    font-family: 'gilroy-bold', Arial, sans-serif;
+    font-size: 32px;
+}
+
+.buttontextdiscount {
+    font-family: 'gilroy-medium', Arial, sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.buttondiscount {
+    width: 140px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #F9B300;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.buttondiscount:active {
+    background: #c58d00;
+}
+
+.buttondiscount:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px #b38000;
+
+}
+
+.stars1,
+.stars5 {
+    margin-right: 3px;
+}
+
+.ellipse25,
+.ellipse32 {
+    width: 10px;
+    margin-right: 3px;
+}
+
+.bean {
+    width: 19px;
+    margin-right: 7px;
+}
