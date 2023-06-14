@@ -718,6 +718,11 @@ section.catalogprice {
     margin-top: 40px;
 }
 
+.catalogprice p {
+    font-family: 'gilroy-medium', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
 
 p.popular1,
 p.popular2 {
