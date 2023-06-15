@@ -821,7 +821,7 @@ span.pricenew {
     height: 380px;
     padding-left: 80px;
     padding-right: 80px;
-    border: solid 1px #F9B300;
+    border: solid 1px #f100f9;
 }
 
 
@@ -829,16 +829,11 @@ span.pricenew {
     float: right;
     position: absolute;
     width: 40%;
-    margin-left: 46vw;
+    margin-left: 54.3vw;
+    margin-top: -60px;
 }
 
 
-
-#cafe2catalog {
-    width: 35%;
-    margin-left: 50vw;
-    margin-top: -15px;
-}
 
 .h1catalog {
     font-family: 'gilroy-bold', Arial, sans-serif;
