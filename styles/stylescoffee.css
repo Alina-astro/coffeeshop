@@ -816,3 +816,35 @@ span.pricenew {
 }
 
 /*------------------------------Page Catalog Tea------------------*/
+.teatittle1 {
+    background-color: #F9B300;
+    height: 380px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border: solid 1px #F9B300;
+}
+
+
+#tea1catalog {
+    float: right;
+    position: absolute;
+    width: 40%;
+    margin-left: 46vw;
+}
+
+
+
+#cafe2catalog {
+    width: 35%;
+    margin-left: 50vw;
+    margin-top: -15px;
+}
+
+.h1catalog {
+    font-family: 'gilroy-bold', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 47px;
+    color: #ffffff;
+    margin-top: 80px;
+    line-height: 87px;
+}
