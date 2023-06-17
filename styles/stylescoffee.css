@@ -843,3 +843,32 @@ span.pricenew {
     margin-top: 80px;
     line-height: 87px;
 }
+
+/*------------------------------Page Catalog coffeemashine------------------*/
+.teatittle1 {
+    background-color: #F9B300;
+    height: 380px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border: solid 1px #f100f9;
+}
+
+
+#tea1catalog {
+    float: right;
+    position: absolute;
+    width: 40%;
+    margin-left: 54.3vw;
+    margin-top: -60px;
+}
+
+
+
+.h1catalog {
+    font-family: 'gilroy-bold', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 47px;
+    color: #ffffff;
+    margin-top: 80px;
+    line-height: 87px;
+}
