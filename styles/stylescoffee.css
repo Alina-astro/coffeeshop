@@ -844,8 +844,8 @@ span.pricenew {
     line-height: 87px;
 }
 
-/*------------------------------Page Catalog coffeemashine------------------*/
-.teatittle1 {
+/*------------------------------Page Catalog Coffeemashine------------------*/
+.coffeemashinetittle1 {
     background-color: #F9B300;
     height: 380px;
     padding-left: 80px;
@@ -854,12 +854,12 @@ span.pricenew {
 }
 
 
-#tea1catalog {
+#coffeemashine1catalog {
     float: right;
     position: absolute;
-    width: 40%;
-    margin-left: 54.3vw;
-    margin-top: -60px;
+    width: 28%;
+    margin-left: 64vw;
+    margin-top: 120px;
 }
 
 
