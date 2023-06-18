@@ -846,7 +846,7 @@ span.pricenew {
 
 /*------------------------------Page Catalog Coffeemashine------------------*/
 .coffeemashinetittle1 {
-    background-color: #470e4a;
+    background-color: #F9B300;
     height: 380px;
     padding-left: 80px;
     padding-right: 80px;
@@ -863,12 +863,4 @@ span.pricenew {
 }
 
 
-
-.h1catalog {
-    font-family: 'gilroy-bold', Arial, sans-serif;
-    font-weight: 900;
-    font-size: 55px;
-    color: #e715ee;
-    margin-top: 80px;
-    line-height: 87px;
-}
+/*------------------------------Page Catalog ------------------*/
