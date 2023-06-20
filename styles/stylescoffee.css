@@ -703,7 +703,37 @@ a.mainfooter:hover {
 
 
 
-/*------------------------------Page Catalog------------------*/
+/*------------------------------Page Catalog Roasting------------------*/
+.roasting {
+    border: solid 1px rgb(233, 103, 218);
+    padding-left: 80px;
+}
+
+.rectangle35 {
+    float: left;
+    position: relative;
+}
+
+.roasting .ellipse25,
+.roasting .ellipse32 {
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.roasting p {
+    font-family: 'gilroy-bold', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    margin-top: 30px;
+    margin-left: 40px;
+
+
+}
+
+.roasting .bean {
+    margin-left: 3px;
+    margin-top: 20px;
+}
 
 /*------------------------------Page Catalog Price------------------*/
 section.catalogprice {
