@@ -758,6 +758,8 @@ section.catalogprice {
     padding-left: 80px;
     padding-right: 80px;
     padding-top: 40px;
+    background-color: #F5F5F5;
+    ;
 }
 
 .catalogpricecard {
@@ -769,6 +771,7 @@ section.catalogprice {
     font-weight: 500;
     border: 1px solid #E4E4E4;
     border-radius: 20px;
+    background-color: #FFFFFF;
 }
 
 
