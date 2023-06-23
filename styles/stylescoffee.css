@@ -199,8 +199,6 @@ div.catalogcard {
 img.catalogphoto {
     position: absolute;
     width: 170px;
-
-    /*не работает*/
 }
 
 /*------------------------------Page Main Discount------------------*/
@@ -264,12 +262,15 @@ span.comment {
 }
 
 p.vkus,
-p.namecoffeeabout .buttontextdiscount {
+p.namecoffeeabout,
+.buttontextdiscount {
     font-size: 14px;
 }
 
 p.namecoffee {
     font-family: 'gilroy-bold', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 20px;
 }
 
 span.priceold {
@@ -759,24 +760,27 @@ section.catalogprice {
     padding-top: 40px;
 }
 
-.catalogcard {
-    border: solid 1px #e967da;
-    margin-top: 40px;
-}
+.catalogpricecard {
 
-.catalogprice p {
+    margin-top: 40px;
+    padding: 10px;
     font-family: 'gilroy-medium', Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
+    border: 1px solid #E4E4E4;
+    border-radius: 20px;
 }
+
+
 
 p.popular1,
 p.popular2 {
+    font-family: 'gilroy-medium', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
     font-size: 14px;
-    font-weight: 700;
     text-align: left;
     color: #F9B300;
-
 }
 
 option.gramm {
@@ -785,6 +789,10 @@ option.gramm {
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
+}
+
+img.catalogcardphoto {
+    width: 120px;
 }
 
 p.rating {
@@ -798,12 +806,16 @@ span.comment {
 }
 
 p.vkus,
-p.namecoffeeabout .buttontextdiscount {
+p.namecoffeeabout,
+.buttontextdiscount {
     font-size: 14px;
 }
 
 p.namecoffee {
     font-family: 'gilroy-bold', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+
 }
 
 span.priceold {
@@ -845,9 +857,10 @@ span.pricenew {
 
 }
 
-.stars1,
-.stars5 {
+img.stars1,
+img.stars5 {
     margin-right: 3px;
+    width: 20px;
 }
 
 .ellipse25,
