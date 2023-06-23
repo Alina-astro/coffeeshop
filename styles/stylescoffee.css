@@ -193,10 +193,13 @@ div.catalogcard {
     font-size: 16px;
     color: black;
     text-align: center;
+    padding-top: 35vh;
 }
 
-.catalogcard img {
-    align-items: center;
+img.catalogphoto {
+    position: absolute;
+    width: 170px;
+
     /*не работает*/
 }
 
