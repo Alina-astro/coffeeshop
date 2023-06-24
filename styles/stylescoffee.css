@@ -175,7 +175,6 @@ h2.catalogcoffee {
 
 div.catalogcard {
     display: inline-block;
-    /*не работает*/
 }
 
 .catalogcard {
@@ -195,6 +194,16 @@ div.catalogcard {
     text-align: center;
     padding-top: 35vh;
 }
+
+.catalogcard a {
+    text-decoration: none;
+    color: black;
+}
+
+.catalogcard a:hover {
+    text-decoration: underline;
+}
+
 
 img.catalogphoto {
     position: absolute;
