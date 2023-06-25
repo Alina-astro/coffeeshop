@@ -714,18 +714,6 @@ a.mainfooter:hover {
     line-height: 87px;
 }
 
-/*------------------------------Page Catalog Make Coffee Card------------------*/
-section.makecoffee {
-    box-shadow: 0px 0px 30px rgba(149, 149, 149, 0.25);
-    border-radius: 20px;
-}
-
-p.makecoffee {
-    font-family: 'gilroy-medium', Arial, sans-serif;
-    font-weight: 500;
-    font-size: 18px;
-    text-decoration: none;
-}
 
 
 
@@ -774,6 +762,36 @@ p.makecoffee {
     margin-bottom: 20px;
 }
 
+/*------------------------------Page Catalog Make Coffee Card------------------*/
+section.makecoffee {
+    border: solid 1px rgb(233, 103, 218);
+    padding: 20px 80px 20px 80px;
+
+}
+
+div.makecoffee {
+    box-shadow: 0px 0px 30px rgba(149, 149, 149, 0.25);
+    border-radius: 20px;
+    padding: 10px;
+    width: 9.8%;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+p.makecoffee {
+    font-family: 'gilroy-medium', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    border: solid 1px rgb(233, 103, 218);
+}
+
+img.makecoffee {
+    height: 30%;
+    border: solid 1px rgb(233, 103, 218);
+}
+
+
 /*------------------------------Page Catalog Price------------------*/
 section.catalogprice {
     border: solid 1px #e967da;
@@ -781,7 +799,7 @@ section.catalogprice {
     padding-right: 80px;
     padding-top: 40px;
     background-color: #F5F5F5;
-    ;
+
 }
 
 .catalogpricecard {
@@ -821,12 +839,12 @@ img.catalogcardphoto {
 }
 
 p.rating {
-    font-size: 19px;
+    font-size: 16px;
     font-weight: 900;
 }
 
 span.comment {
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 100;
 }
 
