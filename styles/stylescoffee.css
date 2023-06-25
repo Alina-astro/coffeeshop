@@ -725,19 +725,26 @@ a.mainfooter:hover {
 
 
 /*------------------------------Page Catalog Roasting------------------*/
-.roasting {
+section.alltypesofcoffee {
+    padding: 0px 80px 0px 80px;
+}
+
+.alltypesofcoffee section {
+    display: inline-block;
+}
+
+section.roasting {
     border: solid 1px rgb(233, 103, 218);
     border-radius: 20px;
-    margin-left: 80px;
-    width: 240px;
-    height: 300px;
+    width: 24%;
     box-shadow: 0px 0px 30px rgba(149, 149, 149, 0.25);
 }
 
 .rectangle35 {
     float: left;
     position: relative;
-    height: 250px;
+    width: 10px;
+    height: 90%;
     margin: 20px;
 }
 
@@ -767,6 +774,23 @@ a.mainfooter:hover {
 .roasting .ellipse25,
 .roasting .ellipse32 {
     margin-bottom: 20px;
+}
+
+/*------------------------------Page Catalog Choose type of coffee------------------*/
+section.choosetypeofcoffee {
+    border: solid 1px rgb(233, 103, 218);
+    border-radius: 20px;
+    width: 74%;
+    margin-left: 10px;
+    box-shadow: 0px 0px 30px rgba(149, 149, 149, 0.25);
+}
+
+.rectangle37 {
+    float: inline-start;
+    position: relative;
+    width: 96%;
+    height: 10px;
+    margin: 10px;
 }
 
 /*------------------------------Page Catalog Make Coffee Card------------------*/
