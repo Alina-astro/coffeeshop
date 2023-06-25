@@ -748,33 +748,18 @@ section.roasting {
     margin: 20px;
 }
 
-.roasting .ellipse25,
-.roasting .ellipse32 {
-    margin-left: 5px;
-    margin-right: 10px;
-    width: 6%;
-}
 
 .roasting p {
     font-family: 'gilroy-bold', Arial, sans-serif;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 22px;
     margin-top: 24px;
     margin-left: 50px;
     letter-spacing: 0.5px;
 
 }
 
-.roasting .bean {
-    margin-left: 0px;
 
-}
-
-.roasting .bean,
-.roasting .ellipse25,
-.roasting .ellipse32 {
-    margin-bottom: 20px;
-}
 
 /*------------------------------Page Catalog Choose type of coffee------------------*/
 section.choosetypeofcoffee {
@@ -788,9 +773,32 @@ section.choosetypeofcoffee {
 .rectangle37 {
     float: inline-start;
     position: relative;
-    width: 96%;
+    width: 88%;
     height: 10px;
-    margin: 10px;
+    margin: 20px 40px 0px 60px;
+}
+
+/*------------------------------Page Catalog Choose type of coffee Geography------------------*/
+
+div.choosegeorgaphy {
+    font-family: 'gilroy-medium', Arial, sans-serif;
+    letter-spacing: 1px;
+    padding-left: 60px;
+
+}
+
+.choosegeorgaphy p {
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.choosegeorgaphy label {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.choosegeorgaphy input {
+    margin-bottom: 20px;
 }
 
 /*------------------------------Page Catalog Make Coffee Card------------------*/
