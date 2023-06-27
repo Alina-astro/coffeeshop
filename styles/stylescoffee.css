@@ -38,8 +38,9 @@ img.logo {
 
 .navigation {
     font-family: 'gilroy-medium', Arial, sans-serif;
-    font-weight: 500;
+    font-weight: 100;
     font-size: 18px;
+    letter-spacing: 0.6px;
     text-decoration: none;
     color: black;
     margin-right: 70px;
@@ -55,13 +56,17 @@ img.logo {
 }
 
 .personmenu {
-    width: 23px;
-    height: 21px;
-    margin-right: 33px;
+    width: 27px;
+    height: 25px;
+    margin-right: 30px;
 }
 
 #search {
     margin-left: 244px;
+}
+
+#profile {
+    margin-right: 0px;
 }
 
 .personmenu:hover {
@@ -687,7 +692,7 @@ a.mainfooter:hover {
 /*------------------------------Page Catalog Coffee------------------*/
 .coffeetittle2 {
     background-color: #F9B300;
-    height: 380px;
+    height: 320px;
     padding-left: 80px;
     padding-right: 80px;
     border: solid 1px #F9B300;
@@ -701,24 +706,26 @@ a.mainfooter:hover {
 }
 
 #cafe1catalog {
-    width: 40%;
-    margin-left: 46vw;
+    width: 38%;
+    margin-left: 48vw;
+    margin-top: -15px;
 
 }
 
 #cafe2catalog {
     width: 35%;
-    margin-left: 50vw;
-    margin-top: -15px;
+    margin-left: 51vw;
+    margin-top: -35px;
 }
 
-.h1catalog {
+.coffeetittle2 .h1catalog {
     font-family: 'gilroy-bold', Arial, sans-serif;
     font-weight: 900;
-    font-size: 47px;
+    font-size: 52px;
     color: #ffffff;
-    margin-top: 80px;
+    margin-top: 120px;
     line-height: 87px;
+    letter-spacing: 0.8px;
 }
 
 
@@ -734,18 +741,20 @@ section.alltypesofcoffee {
 }
 
 section.roasting {
-    border: solid 1px rgb(233, 103, 218);
+
     border-radius: 20px;
-    width: 24%;
+    width: 23%;
+    aspect-ratio: 3/4;
     box-shadow: 0px 0px 30px rgba(149, 149, 149, 0.25);
 }
 
 .rectangle35 {
     float: left;
     position: relative;
-    width: 10px;
-    height: 90%;
-    margin: 20px;
+    width: 12px;
+    height: 85%;
+    margin-left: 20px;
+    margin-top: 30px;
 }
 
 
@@ -753,10 +762,21 @@ section.roasting {
     font-family: 'gilroy-bold', Arial, sans-serif;
     font-weight: 400;
     font-size: 22px;
-    margin-top: 24px;
-    margin-left: 50px;
+    margin-top: 30px;
+    margin-left: 68px;
+    margin-bottom: 32px;
     letter-spacing: 0.5px;
 
+}
+
+.roasting .roastingbean {
+    margin-left: 38px;
+    margin-bottom: 40px;
+
+}
+
+.roasting .bean:first-of-type {
+    margin-left: 12px;
 }
 
 
@@ -774,7 +794,7 @@ section.choosetypeofcoffee {
     float: inline-start;
     position: relative;
     width: 88%;
-    height: 10px;
+    height: 12px;
     margin: 20px 40px 0px 60px;
 }
 
