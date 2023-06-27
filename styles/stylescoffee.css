@@ -795,7 +795,7 @@ section.choosetypeofcoffee {
     position: relative;
     width: 88%;
     height: 12px;
-    margin: 20px 40px 0px 60px;
+    margin: 22px 40px 0px 65px;
 }
 
 /*------------------------------Page Catalog Choose type of coffee Geography------------------*/
@@ -803,7 +803,7 @@ section.choosetypeofcoffee {
 div.choosegeorgaphy {
     font-family: 'gilroy-medium', Arial, sans-serif;
     letter-spacing: 1px;
-    padding-left: 60px;
+    padding-left: 70px;
 
 }
 
@@ -814,11 +814,12 @@ div.choosegeorgaphy {
 
 .choosegeorgaphy label {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 15px;
+    margin-left: 10px;
 }
 
 .choosegeorgaphy input {
-    margin-bottom: 20px;
+    margin-bottom: 22px;
 }
 
 /*------------------------------Page Catalog Make Coffee Card------------------*/
