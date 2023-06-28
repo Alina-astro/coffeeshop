@@ -798,31 +798,45 @@ section.choosetypeofcoffee {
     margin: 22px 40px 0px 65px;
 }
 
+.choosetypeofcoffee div {
+    display: inline-block;
+}
+
 /*------------------------------Page Catalog Choose type of coffee Geography------------------*/
+
 
 div.choosegeorgaphy {
     font-family: 'gilroy-medium', Arial, sans-serif;
     letter-spacing: 1px;
     padding-left: 70px;
-
 }
 
-.choosegeorgaphy p {
+div.choosevkus {
+    font-family: 'gilroy-medium', Arial, sans-serif;
+    letter-spacing: 1px;
+    padding-left: 40px;
+}
+
+.choosegeorgaphy p,
+.choosevkus p {
     font-weight: 900;
     font-size: 18px;
 }
 
-.choosegeorgaphy label {
+.choosegeorgaphy label,
+.choosevkus label {
     font-weight: 400;
     font-size: 15px;
     margin-left: 10px;
 }
 
-.choosegeorgaphy input {
+.choosegeorgaphy input,
+.choosevkus input {
     margin-bottom: 22px;
+    color: #E4E4E4;
 }
 
-/*------------------------------Page Catalog Make Coffee Card------------------*/
+/*------------------------------Page Catalog Make Coffee Card-----------------------------*/
 section.makecoffee {
     border: solid 1px rgb(233, 103, 218);
     padding: 20px 80px 20px 80px;
