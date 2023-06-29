@@ -1,7 +1,14 @@
 @font-face {
-    font-family: 'gilroy-medium';
+    font-family: 'gilroy-regular';
     font-style: normal;
-    src: url('/coffeeshop/fonts/gilroy-medium.ttf');
+    src: url('/coffeeshop/fonts/gilroy-regular.ttf');
+}
+
+@font-face {
+    font-family: 'gilroy-black';
+    font-style: normal;
+    src: url('/coffeeshop/fonts/gilroy-black.ttf');
+
 }
 
 @font-face {
@@ -14,6 +21,7 @@
 /*------------------------------Page Main------------------*/
 body {
     border: solid 1px rgb(46, 226, 43);
+    font-family: 'gilroy-regular', Arial, sans-serif;
 
 }
 
@@ -37,14 +45,12 @@ img.logo {
 }
 
 .navigation {
-    font-family: 'gilroy-medium', Arial, sans-serif;
-    font-weight: 100;
     font-size: 18px;
     letter-spacing: 0.6px;
     text-decoration: none;
     color: black;
     margin-right: 70px;
-    border: solid 1px rgb(233, 103, 218);
+
 }
 
 .navigation:hover {
@@ -104,7 +110,7 @@ section.coffeetittle {
 
 
 h1.coffeetittle {
-    font-family: 'gilroy-bold', Arial, sans-serif;
+    font-family: 'gilroy-black', Arial, sans-serif;
     font-weight: 900;
     font-size: 55px;
     color: black;
@@ -115,9 +121,7 @@ h1.coffeetittle {
 
 .aboutcoffee {
     margin-top: 40px;
-    font-family: 'gilroy-medium', Arial, sans-serif;
-    font-style: normal;
-    font-weight: 500;
+    font-family: 'gilroy-regular', Arial, sans-serif;
     font-size: 18px;
     line-height: 130%;
 }
@@ -153,7 +157,7 @@ h1.coffeetittle {
 
 .button2 {
     color: #ffffff;
-    font-family: 'gilroy-medium', Arial, sans-serif;
+    font-family: 'gilroy-bold', Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -170,10 +174,8 @@ section.catalogcoffee {
 }
 
 h2.catalogcoffee {
-    font-family: 'gilroy-bold', Arial, sans-serif;
-    font-weight: 900;
+    font-family: 'gilroy-black', Arial, sans-serif;
     font-size: 35px;
-    color: black;
     margin-top: 170px;
 }
 
@@ -200,8 +202,7 @@ div.catalogcard:last-of-type {
 
 .catalogcard p {
     font-family: 'gilroy-bold', Arial, sans-serif;
-    font-weight: 700;
-    font-size: 16px;
+    font-size: 18px;
     color: black;
     text-align: center;
     padding-top: 35vh;
@@ -236,8 +237,7 @@ section.discount {
 }
 
 h2.discount {
-    font-family: 'gilroy-bold', Arial, sans-serif;
-    font-weight: 900;
+    font-family: 'gilroy-black', Arial, sans-serif;
     font-size: 35px;
     color: black;
     text-align: right;
@@ -245,7 +245,7 @@ h2.discount {
 }
 
 .discount p {
-    font-family: 'gilroy-medium', Arial, sans-serif;
+    font-family: 'gilroy-regular', Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
 }
@@ -256,9 +256,9 @@ p.discount {
     font-size: 18px;
 }
 
-p.skidki {
+.discountcard p.skidki {
+    font-family: 'gilroy-bold', Arial, sans-serif;
     font-size: 14px;
-    font-weight: 700;
     text-align: left;
     color: #F9B300;
 
@@ -266,18 +266,17 @@ p.skidki {
 
 option.gramm {
     /*-------------------------------------надо сделать бокс*/
-    font-family: 'gilroy-medium', Arial, sans-serif;
-    font-style: normal;
-    font-weight: 500;
+    font-family: 'gilroy-regular', Arial, sans-serif;
     font-size: 18px;
 }
 
 p.rating {
+    font-family: 'gilroy-bold', Arial, sans-serif;
     font-size: 19px;
-    font-weight: 900;
 }
 
 span.comment {
+    font-family: 'gilroy-regular', Arial, sans-serif;
     font-size: 12px;
     font-weight: 100;
 }
@@ -288,26 +287,26 @@ p.namecoffeeabout,
     font-size: 14px;
 }
 
-p.namecoffee {
-    font-family: 'gilroy-bold', Arial, sans-serif;
+.discountcard p.namecoffee {
+    font-family: 'gilroy-black', Arial, sans-serif;
     font-weight: 900;
     font-size: 20px;
 }
 
-span.priceold {
-    font-family: 'gilroy-medium', Arial, sans-serif;
+.price span.priceold {
+    font-family: 'gilroy-regular', Arial, sans-serif;
     font-size: 22px;
     color: #C6C6C6;
     text-decoration-line: line-through;
 }
 
-span.pricenew {
-    font-family: 'gilroy-bold', Arial, sans-serif;
+.price span.pricenew {
+    font-family: 'gilroy-black', Arial, sans-serif;
     font-size: 32px;
 }
 
-.buttontextdiscount {
-    font-family: 'gilroy-medium', Arial, sans-serif;
+.price .buttontextdiscount {
+    font-family: 'gilroy-bold', Arial, sans-serif;
     font-size: 14px;
     color: #ffffff;
 }
@@ -386,25 +385,24 @@ section.aboutus {
 
 
 h2.aboutus {
-    font-family: 'gilroy-bold', Arial, sans-serif;
+    font-family: 'gilroy-black', Arial, sans-serif;
     font-weight: 900;
     font-size: 35px;
-    color: black;
     text-align: left;
     margin-top: 0px;
 
 }
 
-p.why {
-    text-align: left;
+.aboutus p.why {
     font-family: 'gilroy-bold', Arial, sans-serif;
-    margin-top: 50px;
-    font-size: 21px;
     font-weight: 900;
+    font-size: 21px;
+    text-align: left;
+    margin-top: 50px;
 }
 
-p.why2 {
-    font-family: 'gilroy-medium', Arial, sans-serif;
+.aboutus p.why2 {
+    font-family: 'gilroy-regular', Arial, sans-serif;
     text-align: left;
     font-size: 18px;
 }
@@ -428,13 +426,13 @@ section.howwe {
 }
 
 h2.howwe {
-    font-family: 'gilroy-bold', Arial, sans-serif;
+    font-family: 'gilroy-black', Arial, sans-serif;
     font-weight: 900;
     font-size: 35px;
 }
 
 p.howwetext {
-    font-family: 'gilroy-medium', Arial, sans-serif;
+    font-family: 'gilroy-regular', Arial, sans-serif;
     font-size: 18px;
     line-height: 130%;
 }
@@ -461,7 +459,7 @@ p.howwetext {
 
 .buttontexthow {
     color: #ffffff;
-    font-family: 'gilroy-medium', Arial, sans-serif;
+    font-family: 'gilroy-bold', Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -482,7 +480,7 @@ section.news {
 }
 
 h2.news {
-    font-family: 'gilroy-bold', Arial, sans-serif;
+    font-family: 'gilroy-black', Arial, sans-serif;
     font-weight: 900;
     font-size: 35px;
     color: black;
@@ -543,14 +541,14 @@ a.more2 {
 p.tanz1,
 p.tanz2,
 p.afr {
-    font-family: 'gilroy-medium', Arial, sans-serif;
+    font-family: 'gilroy-regular', Arial, sans-serif;
     font-size: 14px;
     line-height: 140%;
 }
 
 a.more,
 a.more2 {
-    font-family: 'gilroy-medium', Arial, sans-serif;
+    font-family: 'gilroy-regular', Arial, sans-serif;
     font-size: 14px;
     color: #F9B300;
     text-decoration: none;
@@ -590,7 +588,7 @@ section.sub {
 }
 
 h2.sub {
-    font-family: 'gilroy-bold', Arial, sans-serif;
+    font-family: 'gilroy-black', Arial, sans-serif;
     font-weight: 900;
     font-size: 35px;
     color: black;
@@ -599,7 +597,7 @@ h2.sub {
 }
 
 p.sub {
-    font-family: 'gilroy-medium', Arial, sans-serif;
+    font-family: 'gilroy-regular', Arial, sans-serif;
     font-size: 18px;
     font-weight: 500;
     padding-top: 30px;
@@ -630,7 +628,7 @@ button.subscribe:focus {
 
 .subscribetext {
     color: #ffffff;
-    font-family: 'gilroy-medium', Arial, sans-serif;
+    font-family: 'gilroy-bold', Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -648,7 +646,7 @@ input.subemail {
 }
 
 p.rules {
-    font-family: 'gilroy-medium', Arial, sans-serif;
+    font-family: 'gilroy-regular', Arial, sans-serif;
     font-style: normal;
     font-size: 12px;
     margin-top: 30px;
@@ -667,7 +665,7 @@ footer.mainfooter {
 }
 
 a.mainfooter {
-    font-family: 'gilroy-medium', Arial, sans-serif;
+    font-family: 'gilroy-regular', Arial, sans-serif;
     font-weight: 500;
     font-size: 18px;
     text-decoration: none;
@@ -783,7 +781,6 @@ section.roasting {
 
 /*------------------------------Page Catalog Choose type of coffee------------------*/
 section.choosetypeofcoffee {
-    border: solid 1px rgb(233, 103, 218);
     border-radius: 20px;
     width: 74%;
     margin-left: 10px;
@@ -802,9 +799,6 @@ section.choosetypeofcoffee {
     display: inline-block;
 }
 
-/*------------------------------Page Catalog Choose type of coffee Geography------------------*/
-
-
 div.choosegeorgaphy {
     font-family: 'gilroy-medium', Arial, sans-serif;
     letter-spacing: 1px;
@@ -812,7 +806,8 @@ div.choosegeorgaphy {
 }
 
 div.choosevkus,
-div.choosespecial {
+div.choosespecial,
+div.choosetype {
     font-family: 'gilroy-medium', Arial, sans-serif;
     letter-spacing: 1px;
     padding-left: 40px;
@@ -820,14 +815,16 @@ div.choosespecial {
 
 .choosegeorgaphy p,
 .choosevkus p,
-.choosespecial p {
+.choosespecial p,
+.choosetype p {
     font-weight: 900;
     font-size: 18px;
 }
 
 .choosegeorgaphy label,
 .choosevkus label,
-.choosespecial label {
+.choosespecial label,
+.choosetype label {
     font-weight: 400;
     font-size: 15px;
     margin-left: 10px;
@@ -835,7 +832,8 @@ div.choosespecial {
 
 .choosegeorgaphy input,
 .choosevkus input,
-.choosespecial input {
+.choosespecial input,
+.choosetype input {
     margin-bottom: 22px;
     color: #E4E4E4;
 }
