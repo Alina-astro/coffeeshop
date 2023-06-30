@@ -563,7 +563,7 @@ a.more2 {
 /*------------------------------Page Main Subskribe------------------*/
 
 section.sub {
-    border: solid 3px rgb(233, 103, 218);
+    border: solid 1px rgb(233, 103, 218);
     padding-left: 80px;
 
 }
@@ -1001,19 +1001,38 @@ img.stars5 {
 /*------------------------------Page 2 Catalog Button------------------*/
 
 section.buttonshowmore {
-    padding: 20px 80px 20px 80px;
+    padding: 20px 80px 80px 80px;
     background-color: #F5F5F5;
 }
 
 button.buttonshowmore {
     width: 100%;
     height: 60px;
-    font-size: 18px;
+    font-size: 16px;
     background-color: #FFFFFF;
     border-radius: 10px;
     border: 1px solid #E4E4E4;
 }
 
+/*------------------------------Page 2 Catalog Subskribe------------------*/
+#cafe7,
+#cafe8 {
+    float: right;
+    position: absolute;
+}
+
+#cafe7 {
+    width: 38%;
+    height: 70%;
+    margin-left: 56vw;
+    margin-top: -50px;
+}
+
+#cafe8 {
+    width: 34%;
+    margin-left: 58vw;
+    margin-top: -10px;
+}
 
 /*------------------------------Page Catalog Tea------------------*/
 .teatittle1 {
