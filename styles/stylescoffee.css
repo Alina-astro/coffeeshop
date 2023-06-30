@@ -729,7 +729,7 @@ a.mainfooter:hover {
 
 
 
-/*------------------------------Page Catalog Roasting------------------*/
+/*------------------------------Page 2 Catalog Roasting------------------*/
 section.alltypesofcoffee {
     padding: 0px 80px 0px 80px;
 }
@@ -779,7 +779,7 @@ section.roasting {
 
 
 
-/*------------------------------Page Catalog Choose type of coffee------------------*/
+/*------------------------------Page 2 Catalog Choose type of coffee------------------*/
 section.choosetypeofcoffee {
     border-radius: 20px;
     width: 74%;
@@ -840,7 +840,7 @@ div.choosetype {
     color: #E4E4E4;
 }
 
-/*------------------------------Page Catalog Make Coffee Card-----------------------------*/
+/*------------------------------Page 2 Catalog Make Coffee Card-----------------------------*/
 section.makecoffee {
     border: solid 1px rgb(233, 103, 218);
     padding: 20px 80px 20px 80px;
@@ -875,12 +875,10 @@ p.makecoffee {
 }
 
 
-/*------------------------------Page Catalog Price------------------*/
+/*------------------------------Page 2 Catalog Price------------------*/
 section.catalogprice {
     border: solid 1px #e967da;
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-top: 40px;
+    padding: 40px 80px 40px 80px;
     background-color: #F5F5F5;
 
 }
@@ -999,6 +997,23 @@ img.stars5 {
     width: 19px;
     margin-right: 7px;
 }
+
+/*------------------------------Page 2 Catalog Button------------------*/
+
+section.buttonshowmore {
+    padding: 20px 80px 20px 80px;
+    background-color: #F5F5F5;
+}
+
+button.buttonshowmore {
+    width: 100%;
+    height: 60px;
+    font-size: 18px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid #E4E4E4;
+}
+
 
 /*------------------------------Page Catalog Tea------------------*/
 .teatittle1 {
