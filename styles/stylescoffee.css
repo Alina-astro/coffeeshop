@@ -226,14 +226,18 @@ img.catalogphoto {
 /*------------------------------Page Main Discount------------------*/
 section.discount {
     border: solid 1px #e967da;
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-top: 40px;
+    padding: 40px 80px 20px 80px;
+
 }
 
 .discountcard {
     border: solid 1px #e967da;
-    margin-top: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 0px rgba(146, 146, 146, 0.25);
+    margin-top: 30px;
+    width: 20vw;
+    padding: 20px 30px 50px 30px;
+    display: inline-block;
 }
 
 h2.discount {
@@ -256,11 +260,15 @@ p.discount {
     font-size: 18px;
 }
 
-.discountcard p.skidki {
-    font-family: 'gilroy-bold', Arial, sans-serif;
-    font-size: 14px;
-    text-align: left;
-    color: #F9B300;
+
+
+select#selectweight {
+    float: right;
+    border: 1px solid #F9B300;
+    border-radius: 5px;
+    background: #FFF7E1;
+    width: 33%;
+    aspect-ratio: 4/1;
 
 }
 
@@ -268,6 +276,27 @@ option.gramm {
     /*-------------------------------------надо сделать бокс*/
     font-family: 'gilroy-regular', Arial, sans-serif;
     font-size: 18px;
+    text-align: center;
+
+}
+
+img.discountsimbol {
+    width: 25%;
+    position: relative;
+    margin-top: -100px;
+}
+
+.discountcard p.skidki {
+    font-family: 'gilroy-bold', Arial, sans-serif;
+    font-size: 16px;
+    color: #F9B300;
+    margin-top: 0px;
+}
+
+img.discountphoto {
+    float: left;
+    width: 50%;
+    margin-right: 20px;
 }
 
 p.rating {
@@ -281,16 +310,26 @@ span.comment {
     font-weight: 100;
 }
 
-p.vkus,
-p.namecoffeeabout,
-.buttontextdiscount {
-    font-size: 14px;
+.discountcard p.vkus,
+.discountcard p.namecoffeeabout,
+.price .buttontextdiscount {
+    font-size: 16px;
+}
+
+.discountcard p.vkus {
+    margin-bottom: 2px;
+}
+
+.discountcard p.namecoffeeabout {
+    margin-top: -15px;
+    margin-bottom: 10px;
 }
 
 .discountcard p.namecoffee {
     font-family: 'gilroy-black', Arial, sans-serif;
     font-weight: 900;
     font-size: 20px;
+
 }
 
 .price span.priceold {
@@ -298,11 +337,13 @@ p.namecoffeeabout,
     font-size: 22px;
     color: #C6C6C6;
     text-decoration-line: line-through;
+    border: solid 1px #e967da;
 }
 
 .price span.pricenew {
     font-family: 'gilroy-black', Arial, sans-serif;
     font-size: 32px;
+    border: solid 1px #e967da;
 }
 
 .price .buttontextdiscount {
@@ -311,15 +352,16 @@ p.namecoffeeabout,
     color: #ffffff;
 }
 
-.buttondiscount {
-    width: 140px;
-    height: 40px;
-    margin-top: 20px;
+button.buttondiscount {
+    width: 45%;
+    aspect-ratio: 7/2;
     background-color: #F9B300;
     border-radius: 5px;
-    border: 0;
+
     cursor: pointer;
-    margin-left: 30px;
+    float: right;
+    margin-top: -8px;
+    border: 0px;
 }
 
 .buttondiscount:active {
@@ -332,19 +374,19 @@ p.namecoffeeabout,
 
 }
 
-.stars1,
-.stars5 {
+img.stars1,
+img.stars5 {
     margin-right: 3px;
 }
 
-.ellipse25,
-.ellipse32 {
-    width: 10px;
+img.ellipse25,
+img.ellipse32 {
+    width: 8px;
     margin-right: 3px;
 }
 
-.bean {
-    width: 19px;
+img.bean {
+    width: 15px;
     margin-right: 7px;
 }
 
