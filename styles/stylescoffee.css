@@ -538,10 +538,7 @@ section.news {
 
     border: solid 1px rgb(233, 103, 218);
     background-color: #FFF7E1;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding: 30px 80px 30px 80px;
 }
 
 h2.news {
@@ -554,28 +551,32 @@ h2.news {
 
 }
 
+.news1,
+.news2 {
+    display: flex;
+    align-items: stretch;
+}
+
 div.coffeecountry1,
 div.coffeecountry2 {
     background: #FFFFFF;
     box-shadow: 0px 0px 30px rgba(146, 146, 146, 0.2);
     border-radius: 20px;
-    height: 300px;
-    display: inline-block;
     margin: 10px;
 }
 
 div.coffeecountry1 {
-    width: 50vw;
+    flex: 1 0 50%;
 }
 
 div.coffeecountry2 {
-    width: 30vw;
+    flex: 1 0 30%;
 
 }
 
 #imgleo {
     float: left;
-    height: 300px;
+    height: 36.6%;
     position: absolute;
 }
 
