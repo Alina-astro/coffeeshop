@@ -20,15 +20,11 @@
 
 /*------------------------------Page Main------------------*/
 body {
-    border: solid 1px rgb(46, 226, 43);
     font-family: 'gilroy-regular', Arial, sans-serif;
-
 }
 
 .topmenu {
     height: 100px;
-    vertical-align: middle;
-    border: solid 1px rgb(226, 43, 189);
     padding-left: 80px;
     padding-right: 80px;
     padding-top: 20px;
@@ -40,8 +36,6 @@ img.logo {
     width: 15%;
     position: relative;
     margin-right: 170px;
-    border: solid 1px rgb(233, 103, 218);
-
 }
 
 .navigation {
@@ -83,8 +77,6 @@ img.logo {
 
 /*------------------------------Page Main About------------------*/
 section.coffeetittle {
-
-    border: solid 1px rgb(233, 103, 218);
     padding-left: 80px;
     padding-right: 80px;
 }
@@ -167,10 +159,8 @@ h1.coffeetittle {
 
 /*------------------------------Page Main Catalog Coffee------------------*/
 section.catalogcoffee {
-    border: solid 2px rgb(190, 103, 233);
-    padding-left: 80px;
-    padding-right: 80px;
-
+    padding: 20px 80px 20px 80px;
+    margin-top: 50px;
 }
 
 h2.catalogcoffee {
@@ -179,33 +169,29 @@ h2.catalogcoffee {
     margin-top: 170px;
 }
 
+.catalogs {
+    display: flex;
+    justify-content: space-between;
+}
 
 div.catalogcard {
-    display: inline-block;
-    aspect-ratio: 3/4;
     width: 24%;
-    margin-right: 10px;
-}
-
-div.catalogcard:last-of-type {
-    margin-right: 0px;
-}
-
-.catalogcard {
-    border: solid 1px #e967da;
+    aspect-ratio: 3/4;
     background-color: #ffffff;
     border-radius: 20px;
     box-shadow: 0px 0px 30px rgba(146, 146, 146, 0.2);
-    width: 20%;
-    height: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .catalogcard p {
     font-family: 'gilroy-bold', Arial, sans-serif;
     font-size: 18px;
     color: black;
-    text-align: center;
-    padding-top: 35vh;
+    padding-bottom: 30%;
+    padding-top: 10%;
 }
 
 .catalogcard a {
@@ -219,8 +205,7 @@ div.catalogcard:last-of-type {
 
 
 img.catalogphoto {
-    position: absolute;
-    width: 170px;
+    width: 58%;
 }
 
 /*------------------------------Page Main Discount------------------*/
@@ -416,8 +401,6 @@ button.buttondiscount {
 /*------------------------------Page Main About Us------------------*/
 
 section.aboutus {
-
-    border: solid 1px rgb(233, 103, 218);
     background-color: #FFF7E1;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -428,8 +411,6 @@ section.aboutus {
 #cafe3,
 #cafe4 {
     float: left;
-
-
 }
 
 #cafe3 {
@@ -437,7 +418,6 @@ section.aboutus {
     margin-left: 18px;
     position: absolute;
     margin-top: 50px;
-
 }
 
 #cafe4 {
@@ -445,7 +425,6 @@ section.aboutus {
     position: relative;
     margin-left: 20px;
     margin-top: 200px;
-
 }
 
 
@@ -480,14 +459,11 @@ p.why2 {
 
 /*------------------------------Page Main How We------------------*/
 section.howwe {
-
-    border: solid 1px rgb(233, 103, 218);
     background-image: url(/coffeeshop/assets/images/howwe.png);
+    background-size: cover;
     color: #ffffff;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding: 100px 80px 120px 80px;
+
 }
 
 h2.howwe {
@@ -535,8 +511,6 @@ p.howwetext {
 /*------------------------------Page Main News------------------*/
 
 section.news {
-
-    border: solid 1px rgb(233, 103, 218);
     background-color: #FFF7E1;
     padding: 30px 80px 30px 80px;
 }
@@ -629,7 +603,6 @@ a.more2 {
 /*------------------------------Page Main Subskribe------------------*/
 
 section.sub {
-    border: solid 1px rgb(233, 103, 218);
     padding-left: 80px;
 
 }
