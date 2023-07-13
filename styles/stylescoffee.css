@@ -771,18 +771,17 @@ a.mainfooter:hover {
 /*------------------------------Page 2 Catalog Roasting------------------*/
 section.alltypesofcoffee {
     padding: 0px 80px 0px 80px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.alltypesofcoffee section {
-    display: inline-block;
-}
 
 section.roasting {
-
     border-radius: 20px;
     width: 23%;
     aspect-ratio: 3/4;
     box-shadow: 0px 0px 30px rgba(149, 149, 149, 0.25);
+    flex: 0 1 24%;
 }
 
 .rectangle35 {
@@ -824,6 +823,7 @@ section.choosetypeofcoffee {
     width: 74%;
     margin-left: 10px;
     box-shadow: 0px 0px 30px rgba(149, 149, 149, 0.25);
+    flex: 0 1 75%;
 }
 
 .rectangle37 {
@@ -834,15 +834,16 @@ section.choosetypeofcoffee {
     margin: 22px 40px 0px 65px;
 }
 
-.choosetypeofcoffee div {
-    display: inline-block;
-
+.choosetypeofcoffee1 {
+    padding: 0px 70px 10px 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 div.choosegeorgaphy {
     font-family: 'gilroy-regular', Arial, sans-serif;
     letter-spacing: 1px;
-    padding-left: 70px;
 }
 
 div.choosevkus,
@@ -850,7 +851,6 @@ div.choosespecial,
 div.choosetype {
     font-family: 'gilroy-regular', Arial, sans-serif;
     letter-spacing: 1px;
-    padding-left: 40px;
 }
 
 .choosegeorgaphy p,
