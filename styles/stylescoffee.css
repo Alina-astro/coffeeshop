@@ -24,52 +24,53 @@ body {
 }
 
 .topmenu {
-    height: 100px;
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-top: 20px;
-    padding-bottom: 40px;
-
+    padding: 20px 80px 40px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-/*img.logo {
-    width: 15%;
-    position: relative;
-    margin-right: 170px;
-}*/
+div.logo {
+    width: 18%;
+}
 
-.navigation {
+img.logo {
+    width: 100%;
+}
+
+div.navigation {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation a {
+    font-family: 'gilroy-regular', Arial, sans-serif;
+    font-weight: 500;
     font-size: 18px;
-    letter-spacing: 0.6px;
     text-decoration: none;
     color: black;
-    margin-right: 70px;
-
 }
 
-.navigation:hover {
+.navigation a:hover {
     text-decoration: underline;
 }
 
-.navigation:active {
+.navigation a:active {
     color: #F9B300;
 }
 
-.personmenu {
-    width: 27px;
-    height: 25px;
-    margin-right: 30px;
+div.personmenu {
+    width: 13%;
+    display: flex;
+    justify-content: space-between;
 }
 
-#search {
-    margin-left: 244px;
+.personmenu img {
+    width: 80%;
 }
 
-#profile {
-    margin-right: 0px;
-}
-
-.personmenu:hover {
+.personmenu a:hover {
     border: 3px solid #F9B300;
     border-radius: 5px;
 }
