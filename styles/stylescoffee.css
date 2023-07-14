@@ -32,11 +32,11 @@ body {
 
 }
 
-img.logo {
+/*img.logo {
     width: 15%;
     position: relative;
     margin-right: 170px;
-}
+}*/
 
 .navigation {
     font-size: 18px;
@@ -699,11 +699,28 @@ span.rules {
 }
 
 /*------------------------------Page Main Footer------------------*/
-footer.mainfooter {
+.mainfooter {
     padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-a.mainfooter {
+div.logo {
+    width: 18%;
+}
+
+img.logo {
+    width: 100%;
+}
+
+div.navfooter {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navfooter a {
     font-family: 'gilroy-regular', Arial, sans-serif;
     font-weight: 500;
     font-size: 18px;
@@ -711,20 +728,9 @@ a.mainfooter {
     color: black;
 }
 
-a.mainfooter:hover {
+.navfooter a:hover {
     text-decoration: underline;
 }
-
-#mainfooter1 {
-    margin-left: 440px;
-}
-
-#mainfooter2,
-#mainfooter3 {
-    margin-left: 80px;
-}
-
-
 
 /*------------------------------Page 2 Catalog Coffee------------------*/
 .coffeetittle2 {
