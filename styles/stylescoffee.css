@@ -1042,24 +1042,13 @@ section.catalogprice {
     padding: 40px 80px 20px 80px;
 }
 
-.allprices {
+div.allprices {
     padding: 20px 0px 20px 130px;
     display: flex;
     align-items: center;
-
 }
 
-.allcards .arrowlast {
-    width: 5%;
-    margin-right: 4%;
-}
-
-.allcards .arrownext {
-    width: 5%;
-    margin-left: 4%;
-}
-
-.discountcard {
+.pricecard {
     border-radius: 20px;
     box-shadow: 0px 0px 20px 0px rgba(146, 146, 146, 0.25);
     margin: 10px;
@@ -1069,30 +1058,7 @@ section.catalogprice {
     display: inline-block;
 }
 
-h2.discount {
-    font-family: 'gilroy-black', Arial, sans-serif;
-    font-size: 35px;
-    color: black;
-    text-align: right;
-
-}
-
-.discount p {
-    font-family: 'gilroy-regular', Arial, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-}
-
-p.discount {
-    text-align: right;
-    letter-spacing: 0.3px;
-    font-size: 18px;
-    margin-bottom: 30px;
-}
-
-
-
-select#selectweight {
+select.selectweight {
     float: right;
     border: 1px solid #F9B300;
     border-radius: 5px;
@@ -1115,7 +1081,7 @@ img.discountsimbol {
     padding-top: 4%;
 }
 
-.discountcard p.skidki {
+.popularnew p {
     font-family: 'gilroy-bold', Arial, sans-serif;
     font-size: 12px;
     color: #F9B300;
@@ -1123,7 +1089,7 @@ img.discountsimbol {
 
 }
 
-img.discountphoto {
+img.pricephoto {
     float: left;
     width: 50%;
     margin-right: 15px;
@@ -1161,22 +1127,22 @@ span.comment {
     margin-right: 4px;
 }
 
-.discountcard p.vkus,
-.discountcard p.namecoffeeabout,
+.pricecard p.vkus,
+.pricecard p.namecoffeeabout,
 .price .buttontextdiscount {
     font-size: 12px;
 }
 
-.discountcard p.vkus {
+.pricecard p.vkus {
     margin-bottom: 2px;
 }
 
-.discountcard p.namecoffeeabout {
+.pricecard p.namecoffeeabout {
     margin-top: -15px;
     margin-bottom: 10px;
 }
 
-.discountcard p.namecoffee {
+.pricecard p.namecoffee {
     font-family: 'gilroy-black', Arial, sans-serif;
     font-weight: 900;
     font-size: 18px;
