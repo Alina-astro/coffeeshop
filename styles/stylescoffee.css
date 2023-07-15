@@ -916,7 +916,7 @@ p.makecoffee {
 }
 
 /*------------------------------Page 2 Catalog Price------------------*/
-section.catalogprice {
+/*section.catalogprice {
     border: solid 1px #e967da;
     padding: 40px 80px 40px 80px;
     background-color: #F5F5F5;
@@ -948,7 +948,7 @@ p.popular2 {
 }
 
 option.gramm {
-    /*-------------------------------------надо сделать бокс*/
+    /*-------------------------------------надо сделать бокс
     font-family: 'gilroy-regular', Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -1036,7 +1036,195 @@ img.stars5 {
 .bean {
     width: 19px;
     margin-right: 7px;
+}*/
+
+section.catalogprice {
+    padding: 40px 80px 20px 80px;
 }
+
+.allprices {
+    padding: 20px 0px 20px 130px;
+    display: flex;
+    align-items: center;
+
+}
+
+.allcards .arrowlast {
+    width: 5%;
+    margin-right: 4%;
+}
+
+.allcards .arrownext {
+    width: 5%;
+    margin-left: 4%;
+}
+
+.discountcard {
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 0px rgba(146, 146, 146, 0.25);
+    margin: 10px;
+    width: 17vw;
+    height: 70%;
+    padding: 20px 20px 50px 30px;
+    display: inline-block;
+}
+
+h2.discount {
+    font-family: 'gilroy-black', Arial, sans-serif;
+    font-size: 35px;
+    color: black;
+    text-align: right;
+
+}
+
+.discount p {
+    font-family: 'gilroy-regular', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+
+p.discount {
+    text-align: right;
+    letter-spacing: 0.3px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+
+
+select#selectweight {
+    float: right;
+    border: 1px solid #F9B300;
+    border-radius: 5px;
+    background: #FFF7E1;
+    width: 38%;
+    aspect-ratio: 4/1;
+    font-size: 14px;
+    font-family: 'gilroy-regular', Arial, sans-serif;
+    text-align: center;
+}
+
+img.discountsimbol {
+    width: 5%;
+    position: absolute;
+    margin: -70px 0px -10px -10px;
+
+}
+
+.allrating {
+    padding-top: 4%;
+}
+
+.discountcard p.skidki {
+    font-family: 'gilroy-bold', Arial, sans-serif;
+    font-size: 12px;
+    color: #F9B300;
+    margin-top: 0px;
+
+}
+
+img.discountphoto {
+    float: left;
+    width: 50%;
+    margin-right: 15px;
+}
+
+
+
+p.rating {
+    font-family: 'gilroy-bold', Arial, sans-serif;
+    font-size: 16px;
+    margin-top: 3px;
+}
+
+span.comment {
+    font-family: 'gilroy-regular', Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.allrating .stars1,
+.allrating .stars5 {
+    width: 17px;
+    height: 16px;
+    margin-top: 3px;
+}
+
+.allrating .ellipse25,
+.allrating .ellipse32 {
+    width: 7px;
+    margin-right: 3px;
+}
+
+.allrating .bean {
+    width: 15px;
+    margin-right: 4px;
+}
+
+.discountcard p.vkus,
+.discountcard p.namecoffeeabout,
+.price .buttontextdiscount {
+    font-size: 12px;
+}
+
+.discountcard p.vkus {
+    margin-bottom: 2px;
+}
+
+.discountcard p.namecoffeeabout {
+    margin-top: -15px;
+    margin-bottom: 10px;
+}
+
+.discountcard p.namecoffee {
+    font-family: 'gilroy-black', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+
+}
+
+.price span.priceold {
+    font-family: 'gilroy-regular', Arial, sans-serif;
+    font-size: 20px;
+    color: #C6C6C6;
+    text-decoration-line: line-through;
+
+}
+
+.price span.pricenew {
+    font-family: 'gilroy-black', Arial, sans-serif;
+    font-size: 28px;
+
+}
+
+.price .buttontextdiscount {
+    font-family: 'gilroy-bold', Arial, sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+button.buttondiscount {
+    width: 60%;
+
+    background-color: #F9B300;
+    border-radius: 5px;
+
+    cursor: pointer;
+    float: right;
+    margin-top: -8px;
+    border: 0px;
+}
+
+.buttondiscount:active {
+    background: #c58d00;
+}
+
+.buttondiscount:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px #b38000;
+
+}
+
 
 /*------------------------------Page 2 Catalog Button------------------*/
 
