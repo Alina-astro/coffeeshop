@@ -750,6 +750,7 @@ div.navfooter {
 }
 
 #cafe1catalog {
+    z-index: 1;
     width: 38%;
     margin-left: 48vw;
     margin-top: -15px;
@@ -757,6 +758,7 @@ div.navfooter {
 }
 
 #cafe2catalog {
+    z-index: 2;
     width: 35%;
     margin-left: 51vw;
     margin-top: -35px;
@@ -1058,27 +1060,26 @@ div.allprices {
     display: inline-block;
 }
 
-select.selectweight {
-    float: right;
+.pricecardtitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.pricecardtitle .selectweight {
     border: 1px solid #F9B300;
     border-radius: 5px;
     background: #FFF7E1;
-    width: 38%;
+    width: 44%;
     aspect-ratio: 4/1;
     font-size: 14px;
     font-family: 'gilroy-regular', Arial, sans-serif;
     text-align: center;
+    flex: 1 0 40%;
 }
 
-img.discountsimbol {
-    width: 5%;
-    position: absolute;
-    margin: -70px 0px -10px -10px;
-
-}
-
-.allrating {
-    padding-top: 4%;
+.popularnew {
+    flex: 1 0 50%;
 }
 
 .popularnew p {
@@ -1086,15 +1087,28 @@ img.discountsimbol {
     font-size: 12px;
     color: #F9B300;
     margin-top: 0px;
-
 }
 
-img.pricephoto {
-    float: left;
-    width: 50%;
-    margin-right: 15px;
+article.pricerating {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
+.allrating {
+    padding-top: 4%;
+    flex: 1 0 30%;
+    margin-left: 10px;
+}
+
+
+div.pricephoto {
+    flex: 1 0 40%;
+}
+
+.pricephoto img {
+    width: 100%;
+}
 
 
 p.rating {
@@ -1128,8 +1142,7 @@ span.comment {
 }
 
 .pricecard p.vkus,
-.pricecard p.namecoffeeabout,
-.price .buttontextdiscount {
+.pricecard p.namecoffeeabout {
     font-size: 12px;
 }
 
@@ -1137,18 +1150,50 @@ span.comment {
     margin-bottom: 2px;
 }
 
-.pricecard p.namecoffeeabout {
-    margin-top: -15px;
-    margin-bottom: 10px;
-}
 
-.pricecard p.namecoffee {
+.namecoffeeabout .namecoffee {
     font-family: 'gilroy-black', Arial, sans-serif;
     font-weight: 900;
     font-size: 18px;
-
 }
 
+div.price {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price span.pricenew {
+    font-family: 'gilroy-black', Arial, sans-serif;
+    font-size: 28px;
+}
+
+.price .buttontextprice {
+    font-family: 'gilroy-bold', Arial, sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+button.buttonprice {
+    flex: 0 1 60%;
+    aspect-ratio: 4/1;
+    background-color: #F9B300;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 0px;
+}
+
+.buttonprice:active {
+    background: #c58d00;
+}
+
+.buttonprice:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px #b38000;
+}
+
+/*----------for discount card---------------*/
 .price span.priceold {
     font-family: 'gilroy-regular', Arial, sans-serif;
     font-size: 20px;
@@ -1157,40 +1202,12 @@ span.comment {
 
 }
 
-.price span.pricenew {
-    font-family: 'gilroy-black', Arial, sans-serif;
-    font-size: 28px;
+img.discountsimbol {
+    width: 5%;
+    position: absolute;
+    margin: -70px 0px -10px -10px;
 
 }
-
-.price .buttontextdiscount {
-    font-family: 'gilroy-bold', Arial, sans-serif;
-    font-size: 14px;
-    color: #ffffff;
-}
-
-button.buttondiscount {
-    width: 60%;
-
-    background-color: #F9B300;
-    border-radius: 5px;
-
-    cursor: pointer;
-    float: right;
-    margin-top: -8px;
-    border: 0px;
-}
-
-.buttondiscount:active {
-    background: #c58d00;
-}
-
-.buttondiscount:focus {
-    outline: none;
-    box-shadow: 0 0 0 3px #b38000;
-
-}
-
 
 /*------------------------------Page 2 Catalog Button------------------*/
 
