@@ -918,146 +918,25 @@ p.makecoffee {
 }
 
 /*------------------------------Page 2 Catalog Price------------------*/
-/*section.catalogprice {
-    border: solid 1px #e967da;
-    padding: 40px 80px 40px 80px;
-    background-color: #F5F5F5;
-
-}
-
-.catalogpricecard {
-
-    margin-top: 40px;
-    padding: 10px;
-    font-family: 'gilroy-regular', Arial, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    border: 1px solid #E4E4E4;
-    border-radius: 20px;
-    background-color: #FFFFFF;
-}
-
-
-
-p.popular1,
-p.popular2 {
-    font-family: 'gilroy-bold', Arial, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    text-align: left;
-    color: #F9B300;
-}
-
-option.gramm {
-    /*-------------------------------------надо сделать бокс
-    font-family: 'gilroy-regular', Arial, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-}
-
-img.catalogcardphoto {
-    width: 120px;
-}
-
-.catalogpricecard .rating {
-    font-size: 16px;
-    font-weight: 900;
-}
-
-.catalogpricecard span.comment {
-    font-size: 10px;
-    font-weight: 100;
-}
-
-p.vkus,
-p.namecoffeeabout,
-.buttontextdiscount {
-    font-size: 14px;
-}
-
-.catalogpricecard .namecoffee {
-    font-family: 'gilroy-black', Arial, sans-serif;
-    font-weight: 900;
-    font-size: 20px;
-
-}
-
-.catalogpricecard .priceold {
-    font-family: 'gilroy-regular', Arial, sans-serif;
-    font-size: 22px;
-    color: #C6C6C6;
-    text-decoration-line: line-through;
-}
-
-.catalogpricecard .pricenew {
-    font-family: 'gilroy-black', Arial, sans-serif;
-    font-size: 32px;
-}
-
-.buttontextdiscount {
-    font-family: 'gilroy-bold', Arial, sans-serif;
-    font-size: 14px;
-    color: #ffffff;
-}
-
-.buttondiscount {
-    width: 140px;
-    height: 40px;
-    margin-top: 20px;
-    background-color: #F9B300;
-    border-radius: 5px;
-    border: 0;
-    cursor: pointer;
-    margin-left: 30px;
-}
-
-.buttondiscount:active {
-    background: #c58d00;
-}
-
-.buttondiscount:focus {
-    outline: none;
-    box-shadow: 0 0 0 3px #b38000;
-
-}
-
-img.stars1,
-img.stars5 {
-    margin-right: 3px;
-    width: 20px;
-}
-
-.ellipse25,
-.ellipse32 {
-    width: 10px;
-    margin-right: 3px;
-}
-
-.bean {
-    width: 19px;
-    margin-right: 7px;
-}*/
-
 section.catalogprice {
     padding: 40px 80px 20px 80px;
+    background-color: #F5F5F5;
 }
 
 div.allprices {
-    padding: 20px 0px 20px 130px;
+    padding: 20px 0px 20px 0px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
 .pricecard {
+    background-color: #ffffff;
     border-radius: 20px;
     box-shadow: 0px 0px 20px 0px rgba(146, 146, 146, 0.25);
-    margin: 10px;
     width: 17vw;
-    height: 70%;
     padding: 20px 20px 50px 30px;
-    display: inline-block;
+
 }
 
 .pricecardtitle {
@@ -1084,7 +963,7 @@ div.allprices {
 
 .popularnew p {
     font-family: 'gilroy-bold', Arial, sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     color: #F9B300;
     margin-top: 0px;
 }
@@ -1143,7 +1022,7 @@ span.comment {
 
 .pricecard p.vkus,
 .pricecard p.namecoffeeabout {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .pricecard p.vkus {
@@ -1157,25 +1036,25 @@ span.comment {
     font-size: 18px;
 }
 
-div.price {
+div.coffeeprice {
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.price span.pricenew {
+.coffeeprice .new {
     font-family: 'gilroy-black', Arial, sans-serif;
     font-size: 28px;
 }
 
-.price .buttontextprice {
+.coffeeprice .button span {
     font-family: 'gilroy-bold', Arial, sans-serif;
     font-size: 14px;
     color: #ffffff;
 }
 
-button.buttonprice {
+button.coffeeprice {
     flex: 0 1 60%;
     aspect-ratio: 4/1;
     background-color: #F9B300;
@@ -1184,28 +1063,37 @@ button.buttonprice {
     border: 0px;
 }
 
-.buttonprice:active {
+button.coffeeprice:active {
     background: #c58d00;
 }
 
-.buttonprice:focus {
+button.coffeeprice:focus {
     outline: none;
     box-shadow: 0 0 0 3px #b38000;
 }
 
 /*----------for discount card---------------*/
-.price span.priceold {
+.discountsimbol {
+    flex: 1 0 50%;
+}
+
+.discountsimbol p {
+    font-family: 'gilroy-bold', Arial, sans-serif;
+    font-size: 14px;
+    color: #F9B300;
+}
+
+.discountsimbol img {
+    width: 70px;
+    position: absolute;
+    margin: -70px 0px -10px -10px;
+}
+
+.coffeeprice .old {
     font-family: 'gilroy-regular', Arial, sans-serif;
     font-size: 20px;
     color: #C6C6C6;
     text-decoration-line: line-through;
-
-}
-
-img.discountsimbol {
-    width: 5%;
-    position: absolute;
-    margin: -70px 0px -10px -10px;
 
 }
 
