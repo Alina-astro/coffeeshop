@@ -1150,8 +1150,7 @@ button.buttonshowmore {
 .teatittle1 {
     background-color: #F9B300;
     height: 380px;
-    padding: 0px 80px 0px 80px;
-    border: solid 1px #f100f9;
+    padding: 20px 80px 0px 80px;
 }
 
 
@@ -1159,6 +1158,7 @@ button.buttonshowmore {
     position: absolute;
     width: 38%;
     margin-left: 56.4vw;
+    margin-top: -5px;
 }
 
 
@@ -1168,15 +1168,19 @@ button.buttonshowmore {
     font-weight: 900;
     font-size: 47px;
     color: #ffffff;
-    margin-top: 80px;
-    line-height: 87px;
+    margin-top: 100px;
 }
 
 /*------------------------------Page3 Catalog Tea Types------------------*/
 section.typeoftea1 {
-    border: solid 1px #e967da;
     padding: 20px 0px 20px 80px;
-    margin: -20vh 30vw 0px 0px;
+    margin: -19vh 30vw 0px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+section.typeoftea2 {
+    padding: 10px 120px 20px 80px;
     display: flex;
     justify-content: space-between;
 }
