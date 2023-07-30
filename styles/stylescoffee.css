@@ -1169,8 +1169,6 @@ button.buttonshowmore:active {
     margin-top: -5px;
 }
 
-
-
 .h1catalog {
     font-family: 'gilroy-black', Arial, sans-serif;
     font-weight: 900;
@@ -1351,24 +1349,75 @@ p.typeoftea {
     box-shadow: 0 0 0 3px #b38000;
 }
 
-/*------------------------------Page Catalog Coffeemashine------------------*/
-.coffeemashinetittle1 {
+/*------------------------------Page Catalog Vennding------------------*/
+.vendingtitle1 {
     background-color: #F9B300;
-    height: 380px;
+    height: 60vh;
+    margin-top: -20px;
     padding-left: 80px;
     padding-right: 80px;
     border: solid 1px #F9B300;
 }
 
 
-#coffeemashine1catalog {
-    float: right;
+#vending1catalog {
     position: absolute;
-    width: 28%;
-    margin-left: 64vw;
-    margin-top: 120px;
+    width: 32%;
+    margin-left: 63vw;
+    margin-top: 18vh;
 }
 
+.h1catalog {
+    font-family: 'gilroy-black', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 47px;
+    color: #ffffff;
+    margin-top: 100px;
+}
+
+/*------------------------------Page4 Catalog Coffee for Vending------------------*/
+section.coffeeforvending {
+    padding: 20px 80px 0px 80px;
+    margin-top: -30vh;
+    margin-bottom: -8vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 24px;
+}
+
+
+div.coffeeforvending {
+    box-shadow: 0px 0px 30px #95959540;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    aspect-ratio: 4/3;
+    display: grid;
+    grid-template-rows: 90% 10%;
+    justify-items: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+p.coffeeforvending {
+    font-family: 'gilroy-bold', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    margin-top: 0px;
+    padding: 15%;
+    text-align: center;
+}
+
+.coffeeforvending img {
+    height: 60%;
+}
+
+.emptyelement {
+    background-color: transparent;
+}
+
+/*------------------------------Page3 Catalog Tea Price Cards------------------*/
 
 /*------------------------------Page Catalog Health Eat------------------*/
 
