@@ -1558,7 +1558,7 @@ p.coffeeforvending {
 }
 
 
-#healtheat1catalog {
+#superfood1catalog {
     float: right;
     position: absolute;
     width: 20%;
@@ -1566,7 +1566,7 @@ p.coffeeforvending {
     margin-top: 180px;
 }
 
-section.coffeeforvending {
+section.superfood {
     padding: 20px 80px 0px 80px;
     margin-top: -30vh;
     margin-bottom: -8vh;
@@ -1578,7 +1578,7 @@ section.coffeeforvending {
 }
 
 
-div.coffeeforvending {
+div.superfood-type {
     box-shadow: 0px 0px 30px #95959540;
     border-radius: 20px;
     background-color: #FFFFFF;
@@ -1590,7 +1590,7 @@ div.coffeeforvending {
     padding-bottom: 20px;
 }
 
-p.coffeeforvending {
+p.superfood-type {
     font-family: 'gilroy-bold', Arial, sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -1599,7 +1599,7 @@ p.coffeeforvending {
     text-align: center;
 }
 
-.coffeeforvending img {
+.superfood-type img {
     height: 60%;
 }
 
